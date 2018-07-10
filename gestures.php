@@ -3,8 +3,8 @@
 Plugin Name: Gestures
 Plugin URI: http://premium.wpmudev.org/
 Description: Brings basic gestures to WordPress using Tocca JS
-Author: Chris Knowles
-Version: 1.0
+Author: Chris Knowles. Updated by Adriano Filgueira.
+Version: 1.1
 Author URI: http://twitter.com/ChrisKnowles
 */
 
