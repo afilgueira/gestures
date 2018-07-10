@@ -1,3 +1,6 @@
+<?php
+    header('Content-Type: text/javascript; charset=UTF-8');
+?>
 		
 jQuery(document).ready(function($){
 	$(gestures.container).on('swipeleft', function() {
