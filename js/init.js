@@ -1,15 +1,11 @@
-<?php
-    header('Content-Type: text/javascript; charset=UTF-8');
-?>
-		
 jQuery(document).ready(function($){
 	$(gestures.container).on('swipeleft', function() {
-		var post_nav = <?php next_post_link(); ?>;
+		var post_nav = jQuery('link[rel="next"]');
 		if ( post_nav ) {
 			jQuery(location).attr('href', post_nav.attr('href'));
 		}		
 	}).on('swiperight', function() {
-		var post_nav = <?php previous_post_link(); ?>;
+		var post_nav = jQuery('link[rel="prev"]');
 		if ( post_nav ) {
 			jQuery(location).attr('href', post_nav.attr('href'));
 		}		
